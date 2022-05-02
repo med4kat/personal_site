@@ -67,3 +67,7 @@ table.codecademy_projects tr td p{
     vertical-align: top;
 
 }
+
+table.codecademy_projects tr td a:hover {
+    cursor: pointer;
+}
