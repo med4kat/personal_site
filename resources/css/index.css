@@ -65,7 +65,10 @@ table.codecademy_projects tr td p{
     font-size: 1rem;
     text-align: left;
     vertical-align: top;
+}
 
+table.codecademy_projects tr td a {
+    text-decoration: none;
 }
 
 table.codecademy_projects tr td a:hover {
