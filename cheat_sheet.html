@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Cheat Sheet</title>
+    <link rel='stylesheet' href='./resources/css/cheat_sheet.css'>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS: Typography </h1>
+    </header>
+
+    <section>
+        <h2>CSS Font Properties</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Property/Value</th>
+                    <th>Description</th>
+                    <th>Details/Examples</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="first-column"><span class="code">font-weight</span></td>
+                    <td>Sets how bold the text is. This has many values available in case you have many font variants
+                        available (such as -light, -normal, -bold, -extrabold, -black, etc.),</td>
+                    <td>
+                        <ul>
+                            <li><span class="code">normal, bold</span></li>
+                            <li><span class="code">lighter, bolder: </span>Sets the current element's boldness to be one
+                                step lighter or heavier than its parent element's boldness.</li>
+                            <li><span class="code">100–900: </span>Numeric boldness values that provide finer grained
+                                control than the above keywords, if needed.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first-column"><span class="code">font-style</span></td>
+                    <td>Used to turn italic text on or off.</td>
+                    <td>
+                        <ul>
+                            <li><span class="code">normal</span>: Sets the text to the normal font (turns existing
+                                italics off)</li>
+                            <li><span class="code">italic</span>: Sets the text to use the italic version of the font,
+                                if available; if not, it will simulate italics with oblique instead</li>
+                            <li><span class="code">oblique</span>: Sets the text to use a simulated version of an italic
+                                font, created by slanting the normal version</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first-column"><span class="code">font-size</span></td>
+                    <td>Property sets the size of the font. Changing the font size also updates the sizes of the font
+                        size-relative <span class="code">&ltlength&gt</span> units, such as <span
+                            class="code">em</span>, <span class="code">ex</span>, and so forth.</td>
+                    <td>
+                        <ul>
+
+                            <li>As one of the absolute-size or relative-size keywords
+                                <ul>
+                                    <li>Absolute-size keywords, based on the user's default font size (which is
+                                        medium).<br>
+                                        <span class="code"> xx-small </span> , <span class="code">x-small</span>, <span
+                                            class="code">small</span>, <span class="code">medium</span>, <span
+                                            class="code">large</span>, <span class="code">x-large</span>, <span
+                                            class="code">xx-large</span>, <span class="code">xxx-large</span></li>
+                                    <li>Relative-size keywords. The font will be larger or smaller relative to the
+                                        parent element's font size, roughly by the ratio used to separate the
+                                        absolute-size keywords above.<br>
+                                        <span class="code">larger</span>, <span class="code">smaller</span> </li>
+                                </ul>
+                            </li>
+                            <li>As a <span class="code">&ltlength&gt</span> or a <span
+                                    class="code">&ltpercentage&gt</span>, relative to the parent element's font size
+                            </li>
+
+                            <ul>
+                                <li>A positive <span class="code">&ltlength&gt</span> value. For most font-relative
+                                    units
+                                    (such as <span class="code">em</span> and <span class="code">ex</span>), the font
+                                    size
+                                    is relative to the parent element's font size.<br>
+
+                                    For font-relative units that are root-based (such as <span class="code">rem</span>),
+                                    the
+                                    font size is relative to the size of the font used by the <span
+                                        class="code">&lthtml&gt</span>(root) element.</li>
+                            </ul>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first-column"><span class="code">text-transform</span></td>
+                    <td>Allows you to set your font to be transformed.</td>
+                    <td>
+                        <ul>
+                            <li><span class="code">none</span>: Prevents any transformation</li>
+                            <li><span class="code">uppercase</span>: Transforms all text to capitals</li>
+                            <li><span class="code">lowercase</span>: Transforms all text to lower case</li>
+                            <li><span class="code">capitalize</span>: Transforms all words to have the first letter
+                                capitalized</li>
+                            <li><span class="code">full-width</span>: Transforms all glyphs to be written inside a
+                                fixed-width square, similar to a monospace font, allowing aligning of, e.g., Latin
+                                characters along with Asian language glyphs (like Chinese, Japanese, Korean)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first-column"><span class="code">text-decoration</span></td>
+                    <td>Sets/unsets text decorations on fonts (you'll mainly use this to unset the default underline on
+                        links when styling them).</td>
+                    <td>
+                        <ul>
+                            <li><span class="code">none</span>: Unsets any text decorations already present</li>
+                            <li><span class="code">underline</span>: Underlines the text</li>
+                            <li><span class="code">overline</span>: Gives the text an overline</li>
+                            <li><span class="code">line-through</span>: Puts a strikethrough over the text</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+body {
+    background-color: linen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1,
+h2 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+table {
+    display: table;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    margin: 50px auto;
+    width: 80vw;
+}
+
+.code {
+    font-family: monospace;
+    background-color: whitesmoke;
+}
+
+td {
+    border: 1px dotted burlywood;
+    border-radius: 2px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.first-column {
+    text-align: center;
+}
