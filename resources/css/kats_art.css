@@ -2,13 +2,28 @@
     font-family: Helvitica;
 }
 
+/*return icon-------------*/
+.return-box {
+    display: flex;
+    justify-content: flex-start;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+svg.return:hover {
+    stroke: black;
+}
+
+/* ----------------------- */
+
 .page_header {
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
     font-size: 100px;
     font-weight: bold;
     color: khaki;
     text-align: center;
-    margin: 67px 0;
+    margin: 0 0 67px 0;
 }
 
 header {
@@ -16,6 +31,7 @@ header {
     font-weight: bold;
     color: white;
     margin: 26.56px 0;
+    padding-left: 10px;
 }
 
 span {
@@ -34,4 +50,3 @@ span {
 .other_art {
     background-color: skyblue;
 }
-
