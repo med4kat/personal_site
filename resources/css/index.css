@@ -38,11 +38,17 @@ img:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 5vh 0;  
+    margin: 5vh 0;
 }
 
 h6 {
     color: #737373;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    margin: 0 3vh;
 }
 
 .info {
@@ -64,13 +70,18 @@ p {
 
 /* Table codecademy page */
 table {
-    /* border:1px solid black; */
     vertical-align: top;
-    width: 60%;
+    width: 60vw;
     margin-bottom: 20vh;
 }
 
-table.codecademy_projects tr td p{
+@media screen and (max-width: 900px) {
+    table {
+        width: 90vw;
+    }
+}
+
+table.codecademy_projects tr td p {
     font-size: 1rem;
     text-align: left;
     vertical-align: top;
