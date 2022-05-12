@@ -81,14 +81,22 @@ table {
     }
 }
 
+.name {
+    /* border: 1px solid red; */
+    width: 20%;
+    padding: 10px;
+}
+
 table.projects tr td p {
     font-size: 1rem;
     text-align: left;
     vertical-align: top;
+
 }
 
 table.projects tr td a {
     text-decoration: none;
+    font-weight: 500;
 }
 
 table.projects tr td a:hover {
