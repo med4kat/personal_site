@@ -68,7 +68,7 @@ p {
     margin: 5px;
 }
 
-/* Table codecademy page */
+/* Table codecademy and projects page */
 table {
     vertical-align: top;
     width: 60vw;
@@ -81,16 +81,16 @@ table {
     }
 }
 
-table.codecademy_projects tr td p {
+table.projects tr td p {
     font-size: 1rem;
     text-align: left;
     vertical-align: top;
 }
 
-table.codecademy_projects tr td a {
+table.projects tr td a {
     text-decoration: none;
 }
 
-table.codecademy_projects tr td a:hover {
+table.projects tr td a:hover {
     cursor: pointer;
 }
