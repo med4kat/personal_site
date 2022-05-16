@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-family: Nunito, "sans-serif";
+}
+
 .navbar>.container-fluid {
     justify-content: center !important;
 }

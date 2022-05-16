@@ -24,6 +24,8 @@ section {
     margin-bottom: 3em;
 }
 
+/* ---------------------Colors ------------------------------------------*/
+
 .colors-wrapper {
     display: flex;
     width: 100%;
@@ -37,6 +39,8 @@ section {
     align-items: center;
     justify-content: center;
     padding: 1em;
+    font-family: work-sans, sans-serif;
+    font-weight: 200;
 }
 
 #zero.color {
@@ -47,7 +51,6 @@ section {
 
 #first.color {
     background-color: #cbd3da;
-
 }
 
 #second.color {
@@ -64,6 +67,7 @@ section {
     border-bottom-right-radius: 5px;
 }
 
+/*--------------------- Fonts -------------------------------------*/
 .fonts-wrapper {
     display: flex;
     flex-direction: column;
@@ -76,6 +80,71 @@ section {
     margin-bottom: 1em;
 }
 
+/* ---------------Nunito----------------- */
+.font-label.nunito,
+.italic.nunito  {
+    margin-bottom: 1rem;
+}
+
+.font-label.nunito, 
+.regular.nunito,
+.bold.nunito,
+.italic.nunito {
+    font-family: nunito, sans-serif;
+}
+
+.bold.nunito {
+ font-weight: 700;
+}
+
+.italic.nunito {
+ font-style: italic;
+}
+
+/* ---------------Work Sans----------------- */
+.font-label.work-sans,
+.italic.work-sans  {
+    margin-bottom: 1rem;
+}
+
+.font-label.work-sans, 
+.regular.work-sans,
+.bold.work-sans,
+.italic.work-sans {
+    font-family: work-sans, sans-serif;
+    font-weight: 200;
+}
+
+.bold.work-sans {
+ font-weight: 700;
+}
+
+.italic.work-sans {
+ font-style: italic;
+}
+
+/* ---------------Secular One----------------- */
+.font-label.secular-one,
+.italic.secular-one  {
+    margin-bottom: 1rem;
+}
+
+.font-label.secular-one, 
+.regular.secular-one,
+.bold.secular-one,
+.italic.secular-one {
+    font-family: "Secular One", sans-serif;
+}
+
+/* .bold.secular-one {
+ font-weight: 900;
+} */
+
+.italic.secular-one {
+ font-style: italic;
+}
+
+/* Styles------------------------------------------- */
 .styles-wrapper {
     display: flex;
     flex-direction: column;
