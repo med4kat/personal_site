@@ -5,7 +5,8 @@
 }
 
 h1{
-    font-family: Nunito, "sans-serif";
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
 }
 
 .navbar>.container-fluid {
@@ -13,7 +14,8 @@ h1{
 }
 
 a {
-    color: gray !important;
+    color: #797e82 !important;
+    font-family: 'Secular One';
 }
 
 a:hover {
@@ -46,13 +48,16 @@ img:hover {
 }
 
 h6 {
-    color: #737373;
+    color: #797e82;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
 }
 
 .sub-header {
     display: flex;
     justify-content: center;
     margin: 0 3vh;
+    /* font-weight: 900;  */
 }
 
 .info {
@@ -67,9 +72,11 @@ footer {
 }
 
 p {
-    color: gray;
-    font-size: 0.8rem;
+    color: #797e82;
+    font-size: 0.9rem;
     margin: 5px;
+    font-family: Nunito, sans-serif;
+    font-weight: 200;
 }
 
 /* Table codecademy and projects page */
@@ -92,15 +99,14 @@ table {
 }
 
 table.projects tr td p {
-    font-size: 1rem;
+    /* font-size: 0.8rem; */
     text-align: left;
     vertical-align: top;
-
 }
 
 table.projects tr td a {
     text-decoration: none;
-    font-weight: 500;
+    /* font-weight: 400; */
 }
 
 table.projects tr td a:hover {

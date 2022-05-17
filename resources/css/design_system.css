@@ -5,9 +5,19 @@
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: space-around;
     padding: 5% 10%;
+}
+
+h1 {
+    Font-weight: 700;
+    Font-size: calc(1.375rem + 1.5vw);
+    Font-family: Nunito, sans-serif;
+}
+
+h2 {
+    Font-family: Nunito, sans-serif;
 }
 
 header {
@@ -41,10 +51,11 @@ section {
     padding: 1em;
     font-family: work-sans, sans-serif;
     font-weight: 200;
+    font-size: 0.9rem;
 }
 
 #zero.color {
-    background-color: grey;
+    background-color: #797e82;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -93,6 +104,12 @@ section {
     font-family: nunito, sans-serif;
 }
 
+.regular.nunito,
+.bold.nunito,
+.italic.nunito {
+    font-size: 0.9rem;
+}
+
 .bold.nunito {
  font-weight: 700;
 }
@@ -113,6 +130,12 @@ section {
 .italic.work-sans {
     font-family: work-sans, sans-serif;
     font-weight: 200;
+}
+
+.regular.work-sans,
+.bold.work-sans,
+.italic.work-sans {
+    font-size: 0.9rem;
 }
 
 .bold.work-sans {
@@ -136,6 +159,12 @@ section {
     font-family: "Secular One", sans-serif;
 }
 
+.regular.secular-one,
+.bold.secular-one,
+.italic.secular-one {
+    font-size: 0.9rem;
+}
+
 /* .bold.secular-one {
  font-weight: 900;
 } */
@@ -151,6 +180,23 @@ section {
     width: 100%;
 }
 
+.h6-style {
+    Font-weight: 700 (bold);
+    Font-size: 1rem;
+    Font-family: Nunito, sans-serif;
+    Color: #797e82;
+}
+
+.p-style {
+    font-family: Nunito, sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+    color: #797e82;
+}
+
 .ul-style {
     margin: 1em;
+    font-family: Nunito, sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
 }
