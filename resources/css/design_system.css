@@ -1,10 +1,28 @@
-/* GENERAL STYLES 
+/* 
+RETURN ICON
+GENERAL STYLES 
 COLORS
 FONTS:
     NUNITO
     WORK-SANS
     SECULAR-ONE
 STYLES */
+
+/*return icon-------------*/
+.return-box {
+    display: flex;
+    justify-content: flex-start;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 5px;
+}
+
+svg.return:hover {
+    stroke: black;
+}
+
+/* ----------------------- */
 
 /* ----------------------------------------GENERAL STYLES ------------------------------------------*/
 
