@@ -11,6 +11,12 @@ body {
     opacity: 0.9;
 }
 
+.info {
+    margin: 10px;
+    /* width: 100%; */
+    text-align: center;;
+}
+
 /*---------- Navbar---------- */
 
 .navbar-container {
@@ -49,10 +55,11 @@ body {
 .hero {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 700px;
     width: 1200px;
     margin: 0 auto;
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*hzs2x6*_ga*MjA5NTQ4MDUxMS4xNjM2OTk1MzUy*_ga_3LRZM6TM9L*MTY1Mjg4Nzk4Mi4yMzkuMS4xNjUyODg4MDQ2LjU4");
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*hzs2x6*_ga*MjA5NTQ4MDUxMS4xNjM2OTk1MzUy*_ga_3LRZM6TM9L*MTY1Mjg4Nzk4Mi4yMzkuMS4xNjUyODg4MDQ2LjU4"); 
 } 
 
 .hero-header {
@@ -63,6 +70,20 @@ body {
     background-color: black;
 }
 
-.mission {
-    margin: 10px;
+
+
+/*---------- Tea of the Month section---------- */
+
+.tea-of-the-month {
+    border: 1px solid red;
+    display: flex;
+    margin: 1rem auto;
+    width: 1200px;
+}
+
+.tea-of-the-month.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 1000px;
 }
