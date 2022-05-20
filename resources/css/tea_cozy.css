@@ -14,7 +14,8 @@ body {
 .info {
     margin: 10px;
     /* width: 100%; */
-    text-align: center;;
+    text-align: center;
+    ;
 }
 
 /*---------- Navbar---------- */
@@ -59,8 +60,8 @@ body {
     height: 700px;
     width: 1200px;
     margin: 0 auto;
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*hzs2x6*_ga*MjA5NTQ4MDUxMS4xNjM2OTk1MzUy*_ga_3LRZM6TM9L*MTY1Mjg4Nzk4Mi4yMzkuMS4xNjUyODg4MDQ2LjU4"); 
-} 
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*hzs2x6*_ga*MjA5NTQ4MDUxMS4xNjM2OTk1MzUy*_ga_3LRZM6TM9L*MTY1Mjg4Nzk4Mi4yMzkuMS4xNjUyODg4MDQ2LjU4");
+}
 
 .hero-header {
     display: flex;
@@ -75,15 +76,33 @@ body {
 /*---------- Tea of the Month section---------- */
 
 .tea-of-the-month {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    margin: 1rem auto;
+    flex-direction: column;
+    margin: 2rem auto;
     width: 1200px;
 }
 
-.tea-of-the-month.header{
+.tea-of-the-month.header {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     width: 1000px;
+}
+
+.tea-of-the-month.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.product {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
