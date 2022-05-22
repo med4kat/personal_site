@@ -1,0 +1,137 @@
+.container,
+.glass-wrapper,
+.glass,
+.champagne,
+ .leg,  
+ .foot, 
+.inner-foot {
+    position: absolute;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.glass-wrapper {
+    width: 73px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.glass {
+    border: 1.5px solid black;
+    width: 73px;
+    height: 150px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.champagne {
+    width: 73px;
+    height: 130px;
+    border-top: 1.5px solid black;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #F7CE40;
+    opacity: 60%;
+    top: 18px;
+}
+
+.leg {
+    border: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    width: 4px;
+    height: 93px;
+    top: 151.5px;
+    z-index: 1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    background-color: white;
+}
+
+.foot {
+    width: 62px;
+    height: 15px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: black;
+     border-bottom: 1px solid black; 
+    top: 242px;
+}
+
+.inner-foot {
+    width: 60px;
+    height: 12px;
+    clip-path: polygon(50% 0%, 0% 99%, 99% 99%);
+    background-color: white;
+    top: 3px; 
+    left: 1px;
+}
+
+/* -----------Bubbles - bottom to top----------- */
+.bubble-1,
+.bubble-2,
+.bubble-3,
+.bubble-4,
+.bubble-5,
+.bubble-6,
+.bubble-7 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.bubble-1,
+.bubble-3,
+.bubble-5,
+.bubble-7 {
+    width: 5px;
+    height: 5px;
+}
+
+.bubble-2,
+.bubble-4,
+.bubble-6 {
+    width: 8px;
+    height: 8px;
+}
+
+.bubble-1 {
+    top: 90%;
+    left: 50%;
+}
+
+.bubble-2 {
+    top: 75%;
+    left: 40%;
+}
+
+.bubble-3 {
+    top: 62%;
+    left: 55%;
+}
+
+.bubble-4 {
+    top: 44%;
+    left: 55%;
+}
+
+.bubble-5 {
+    top: 40%;
+    left: 36%;
+}
+
+.bubble-6 {
+    top: 22%;
+    left: 44%;
+}
+
+.bubble-7 {
+    top: 5%;
+    left: 40%;
+}
