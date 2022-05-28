@@ -1,5 +1,4 @@
 * {
-    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
 }
@@ -14,9 +13,7 @@ body {
 
 .info {
     margin: 10px;
-    /* width: 100%; */
     text-align: center;
-    ;
 }
 
 /*---------- Navbar---------- */
@@ -73,12 +70,9 @@ body {
     background-color: black;
 }
 
-
-
 /*---------- Tea of the Month section---------- */
 
 .tea-of-the-month {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     margin: 2rem auto;
@@ -102,7 +96,6 @@ body {
 }
 
 .product {
-    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
@@ -114,26 +107,22 @@ body {
 .location {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1h19jha*_ga*MjA5NTQ4MDUxMS4xNjM2OTk1MzUy*_ga_3LRZM6TM9L*MTY1MzU2ODYyNy4yNTIuMS4xNjUzNTY4NjgxLjY.");
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
     width: 1200px;
-    height: 500px;
-    margin: 2rem auto;
+    /* height should be 500px according to spec but it doesn't look the same if height is 500px */
+    height: 570px;
+    margin: 0 auto;
 }
 
- .location-header {
+.location-header {
     background-color: transparent;
-} 
-
-.location.wrapper {
-    
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: center;
-    height: 250px;
+    margin-bottom: 15px;
+    margin-top: 90px;
 }
+
 
 .address {
     display: flex;
@@ -142,10 +131,27 @@ body {
     width: 300px;
     margin-left: 40px;
     background-color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .address-line {
-    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*---------- Footer ---------- */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+    margin: 2rem auto;
+}
+
+footer>* {
+    margin-bottom: 30px;
+}
+
+.copyright {
+    margin: 20px;
 }
