@@ -32,17 +32,6 @@ main {
     margin-bottom: 70px;
 }
 
-img {
-    height: 30vh;
-    border-radius: 50%;
-
-}
-
-img:hover {
-    /* border: 2px dotted black; */
-    transform: scale(1.1);
-    transition: all .2s;
-}
 
 .row_in_main {
     width: 100%;
