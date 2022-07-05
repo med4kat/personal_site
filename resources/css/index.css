@@ -7,11 +7,28 @@
 h1{
     font-family: Nunito, sans-serif;
     font-weight: 700;
+    margin-top: 10vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
 }
 
-.navbar>.container-fluid {
+/* .navbar>.container-fluid {
     justify-content: center !important;
-    background-color: white !important;
+    position: fixed;
+  top: 0;
+  padding: 1rem; */
+    /* background-color: white !important; */
+/* }  */
+
+/* change height for landscape mobile */
+nav{
+    display: flex;
+    justify-content: center;
+    height: 5vh; 
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -35,6 +52,7 @@ main {
 
 section { 
     height: 100vh;
+  
 }
 
 .row_in_main {
@@ -61,12 +79,12 @@ h6 {
     text-align: center;
 }
 
-footer {
+/* footer {
     text-align: center;
     bottom: 0;
     position: fixed;
     width: 100%;
-}
+} */
 
 p {
     color: #797e82;
